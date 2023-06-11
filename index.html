@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaibhav Agrawal</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/3666d199da.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/v logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#service">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas  fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi, I'm <span>Vaibhav Agrawal</span><br>from IIT Kharagpur</h1>
+            </div>
+        </div>
+    </div>
+    <!-- --------------------about------------------ -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1" ></div >
+                <div class="about-col-2" >
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem nobis unde sequi quidem quae, autem cumque nemo facere voluptatum sit nihil iusto quo, totam sed sapiente consequatur nulla eaque veritatis?</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Developement</span><br>Web app Developement</li>
+                            <li><span>App Developement</span><br>Building Andriod/iOS apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Internship at Doubtnut</span><br>Creating learning videos and assignment problems for students preparing for Engineering colleges</li>
+                            <li><span>Case Study Club</span><br>Estimate production costs, cost-saving methods, and the effects of a product design change on expenditures for management review, action, and control.<br>Prepare reports summarizing information or trends</li>
+                            <li><span>National Service Scheme</span><br>Being a group leader and serving the nation in volunteer services</li>
+                            <li><span>VOICE</span><br>As a member of VOICE IIT Kharagpur, a youth welfare group, organized sessions on Time Management, Stress Management, Mind Control, etc.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020-2025</span><br>Integrated MSc from IIT Kharagpur</li>
+                            <li><span>2020</span><br>CBSE Class 12 from SPS</li>
+                            <li><span>2018</span><br>CBSE Class 10 from GDPS</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div> 
+        </div>
+    </div>
+    <!-- ---------------------services------------------- -->
+    <div id="service">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat temporibus suscipit laboriosam mollitia ipsam! Dolores, est architecto ullam impedit atque quos cumque ex reprehenderit magni at? Inventore nostrum nam porro?</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat temporibus suscipit laboriosam mollitia ipsam! Dolores, est architecto ullam impedit atque quos cumque ex reprehenderit magni at? Inventore nostrum nam porro?</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat temporibus suscipit laboriosam mollitia ipsam! Dolores, est architecto ullam impedit atque quos cumque ex reprehenderit magni at? Inventore nostrum nam porro?</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ---------------------------portfolio--------------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem ducimus, consequuntur voluptate aliquam fugit excepturi libero.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem ducimus, consequuntur voluptate aliquam fugit excepturi libero.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Online Shopping app</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem ducimus, consequuntur voluptate aliquam fugit excepturi libero.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!-- -------------------contact---------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> va21032002@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> 6397162889</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/vaibhav.agrawal.31105"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/vaibhav.2028/"><i class="fa-brands fa-instagram"></i></a>
+                         <a href="https://twitter.com/Vaibhav48955024"><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="https://www.linkedin.com/in/vaibhav-agrawal-9a77681b8/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/CV_Vaibhav_Agrawal.pdf" download class="btn btn2">Download CV</a>
+                </div>
+
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Vaibhav. Made with <i class="fa-solid fa-heart"></i> by Vaibhav</p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links")
+        var tabcontents = document.getElementsByClassName("tab-contents")
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px" ;
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyr5Ocgt8PIh5dE_m5ZJy_iMv7pjD9ppTpBNQcKFwyfGxIL2CgcvWApvh7mNRylWLFhxQ/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                }, 5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
